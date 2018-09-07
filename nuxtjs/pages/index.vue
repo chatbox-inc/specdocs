@@ -26,6 +26,11 @@
 import AppLogo from '~/components/AppLogo.vue'
 
 export default {
+    data () {
+        return {
+            value: null
+        }
+    },
   components: {
     AppLogo
   }
@@ -33,6 +38,9 @@ export default {
 </script>
 
 <style>
+  .block {
+    padding: 0 20px;
+  }
 .container {
   min-height: 100vh;
   display: flex;
